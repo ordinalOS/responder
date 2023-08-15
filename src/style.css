@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #212529;
+  background: hsl(0, 0%, 8%);
   color: #dee2e6;
   font-family: 'Roboto Mono', monospace;
   display: grid;
@@ -133,6 +133,9 @@ main .inputs-container,
 main .content {
   margin: 0 auto;
   max-width: 640px;
+  float:left;
+  margin-left:50px;
+  display: inline;
 }
 
 main .inputs-container {
